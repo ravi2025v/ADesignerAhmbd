@@ -30,8 +30,8 @@ export default function ContactClient() {
       <Navbar />
 
       {/* HERO */}
-      <section style={{ position: "relative", height: "420px", display: "flex", alignItems: "flex-end", paddingBottom: "56px", overflow: "hidden" }}>
-        <Image src="https://jkbrandingindia.com/wp-content/uploads/2024/10/Team-8.jpg" alt="Contact" fill style={{ objectFit: "cover", objectPosition: "center top" }} priority unoptimized />
+      <section style={{ position: "relative", height: "480px", display: "flex", alignItems: "flex-end", paddingBottom: "56px", overflow: "hidden" }}>
+        <Image src="https://jkbrandingindia.com/wp-content/uploads/2024/10/Team-8.jpg" alt="Contact" fill style={{ objectFit: "cover", objectPosition: "center 25%" }} priority unoptimized />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(11,60,93,0.85) 0%, rgba(245,130,32,0.85) 100%)" }} />
         <div style={{ position: "absolute", inset: 0, backgroundImage: "radial-gradient(rgba(255,255,255,0.12) 1px, transparent 1px)", backgroundSize: "32px 32px" }} />
         <div className="site-wrap" style={{ position: "relative", zIndex: 10 }}>
