@@ -4,9 +4,9 @@ import { useInView } from "react-intersection-observer";
 import { Eye, Target, Heart } from "lucide-react";
 
 const pillars = [
-  { icon: Eye,    title: "Our Vision",  text: "To be a global leader in the branding industry, recognized for our creativity, strategic thinking, and commitment to excellence." },
+  { icon: Eye, title: "Our Vision", text: "To be a global leader in the branding industry, recognized for our creativity, strategic thinking, and commitment to excellence." },
   { icon: Target, title: "Our Mission", text: "To deliver innovative, result-driven branding solutions that transform businesses into iconic brands, making every customer feel WoW." },
-  { icon: Heart,  title: "Our Values",  text: "Creativity, Integrity, Excellence, and a Client-First approach form the cornerstone of everything we do at Brandingo." },
+  { icon: Heart, title: "Our Values", text: "Creativity, Integrity, Excellence, and a Client-First approach form the cornerstone of everything we do at Brandingo." },
 ];
 
 export default function Vision() {
@@ -27,7 +27,7 @@ export default function Vision() {
                 padding: "40px 28px",
                 borderRadius: "0",
                 background: "#fff",
-                 border: "1px solid rgba(11,60,93,0.1)", opacity: inView ? 1 : 0,
+                border: "1px solid rgba(11,60,93,0.1)", opacity: inView ? 1 : 0,
                 transform: inView ? "translateY(0)" : "translateY(24px)",
                 transition: `opacity 0.6s ease ${i * 0.15}s, transform 0.6s ease ${i * 0.15}s`,
               }}

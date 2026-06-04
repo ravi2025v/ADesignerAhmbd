@@ -4,17 +4,17 @@ import { useInView } from "react-intersection-observer";
 import { Target, Lightbulb, Globe, Zap, Award } from "lucide-react";
 
 const reasons = [
-  { icon: Lightbulb, title: "Seasoned Experts in Graphic Design",  description: "Our team comprises highly experienced professionals who bring decades of collective expertise in visual communications." },
-  { icon: Target,    title: "Result-Driven Approach",               description: "Every campaign, design, and strategy is crafted with measurable results in mind — your growth is our success metric." },
-  { icon: Globe,     title: "Global Vision, Local Expertise",        description: "We think globally and act locally, combining world-class practices with deep understanding of regional markets." },
-  { icon: Zap,       title: "End-to-End Brand Solutions",           description: "From conception to execution, we handle every aspect of your brand journey under one roof." },
+  { icon: Lightbulb, title: "Seasoned Experts in Graphic Design", description: "Our team comprises highly experienced professionals who bring decades of collective expertise in visual communications." },
+  { icon: Target, title: "Result-Driven Approach", description: "Every campaign, design, and strategy is crafted with measurable results in mind — your growth is our success metric." },
+  { icon: Globe, title: "Global Vision, Local Expertise", description: "We think globally and act locally, combining world-class practices with deep understanding of regional markets." },
+  { icon: Zap, title: "End-to-End Brand Solutions", description: "From conception to execution, we handle every aspect of your brand journey under one roof." },
 ];
 
 const skills = [
-  { label: "Strategic Thinking",      value: 92 },
-  { label: "Analytical Skills",        value: 88 },
-  { label: "SEO Knowledge",            value: 85 },
-  { label: "Social Media Management",  value: 90 },
+  { label: "Strategic Thinking", value: 92 },
+  { label: "Analytical Skills", value: 88 },
+  { label: "SEO Knowledge", value: 85 },
+  { label: "Social Media Management", value: 90 },
 ];
 
 const awards = [

@@ -6,15 +6,15 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const services = [
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-1.png",   title: "Graphic Designing",            description: "Stunning visual content that brings your brand to life — logos, brochures, social media creatives, and more." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/social-media.png",title: "Digital Marketing",            description: "Cost-effective brand awareness campaigns that connect you with your target audience across all digital platforms." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-3.png",   title: "Website Development",         description: "Responsive, user-centric websites that make lasting impressions and drive business growth." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/vector.png",      title: "Search Engine Optimization",  description: "Improve your website's visibility on Google, Bing and other search engines through proven SEO strategies." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-5.png",   title: "Hoarding & Kiosk",            description: "Eye-catching physical display advertising solutions that amplify your brand presence in the real world." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-6.png",   title: "Exhibition Stall",            description: "Showcase platforms designed for direct client engagement — making your brand the star of every event." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2025/01/camera.png",      title: "Photo & Videography",         description: "Transforming moments into timeless memories through stunning photography and cinematic videography." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/adwords.png",     title: "Google Ads",                  description: "Targeted online advertising to acquire new customers and maximize your return on investment." },
-  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/magazine.png",    title: "Magazine, Radio & Cinema Ads",description: "Multi-channel advertising for maximum brand reach and recall across print, radio and cinema." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-1.png", title: "Graphic Designing", description: "Stunning visual content that brings your brand to life — logos, brochures, social media creatives, and more." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/social-media.png", title: "Digital Marketing", description: "Cost-effective brand awareness campaigns that connect you with your target audience across all digital platforms." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-3.png", title: "Website Development", description: "Responsive, user-centric websites that make lasting impressions and drive business growth." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/vector.png", title: "Search Engine Optimization", description: "Improve your website's visibility on Google, Bing and other search engines through proven SEO strategies." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-5.png", title: "Hoarding & Kiosk", description: "Eye-catching physical display advertising solutions that amplify your brand presence in the real world." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/Service-6.png", title: "Exhibition Stall", description: "Showcase platforms designed for direct client engagement — making your brand the star of every event." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2025/01/camera.png", title: "Photo & Videography", description: "Transforming moments into timeless memories through stunning photography and cinematic videography." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/adwords.png", title: "Google Ads", description: "Targeted online advertising to acquire new customers and maximize your return on investment." },
+  { icon: "https://jkbrandingindia.com/wp-content/uploads/2024/10/magazine.png", title: "Magazine, Radio & Cinema Ads", description: "Multi-channel advertising for maximum brand reach and recall across print, radio and cinema." },
 ];
 
 export default function Services() {
