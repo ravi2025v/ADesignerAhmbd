@@ -55,7 +55,7 @@ export default function Portfolio() {
         {/* Grid */}
         <div style={{ display: "grid", gap: "20px" }} className="sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((project, i) => (
-            <Link key={project.id} href={`/projects/${project.slug}`} style={{ textDecoration: "none", color: "inherit", display: "block", borderRadius: "0", overflow: "hidden", background: "#fff", border: "1px solid rgba(0,0,0,0.07)", opacity: inView ? 1 : 0, transform: inView ? "translate(0,0) rotate(0deg) scale(1)" : cardEntrance[i % cardEntrance.length], transition: `opacity 0.9s cubic-bezier(0.22,1,0.36,1) ${i * 0.12}s, transform 1.1s cubic-bezier(0.34,1.56,0.64,1) ${i * 0.12}s`, willChange: "transform, opacity" }} className="card-hover group">
+            <Link key={project.id} href={`/projects/${project.slug}`} style={{ textDecoration: "none", color: "inherit", display: "block", borderRadius: "0", overflow: "hidden", background: "#fff", border: "1px solid rgba(0,0,0,0.07)", opacity: inView ? 1 : 0, transform: inView ? "translate(0,0) rotate(0deg) scale(1)" : cardEntrance[i % cardEntrance.length], transition: `opacity 1.4s cubic-bezier(0.22,1,0.36,1) ${i * 0.18}s, transform 1.9s cubic-bezier(0.34,1.4,0.5,1) ${i * 0.18}s`, willChange: "transform, opacity" }} className="card-hover group">
               <div style={{ position: "relative", height: "200px", overflow: "hidden" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={project.image} alt={project.title} style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.5s ease" }} className="group-hover:scale-110" />

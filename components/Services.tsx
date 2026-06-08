@@ -79,7 +79,7 @@ export default function Services() {
                 overflow: "hidden",
                 opacity: inView ? 1 : 0,
                 transform: inView ? "translate(0,0) rotate(0deg) scale(1)" : cardEntrance[i % cardEntrance.length],
-                transition: `opacity 1s cubic-bezier(0.22,1,0.36,1) ${i * 0.16}s, transform 1.3s cubic-bezier(0.34,1.56,0.64,1) ${i * 0.16}s`,
+                transition: `opacity 1.5s cubic-bezier(0.22,1,0.36,1) ${i * 0.2}s, transform 2s cubic-bezier(0.34,1.4,0.5,1) ${i * 0.2}s`,
                 willChange: "transform, opacity",
                 textDecoration: "none",
               }}
