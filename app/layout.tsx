@@ -9,7 +9,7 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 export const metadata: Metadata = {
   title: "Brandingo India Pvt. Ltd. | Build Your Brand's Journey",
   description:
-    "Brandingo India Pvt. Ltd. – 17+ years of expertise in Graphic Designing, Digital Marketing, Website Development, SEO, Photography, and more.",
+    "Brandingo India Pvt. Ltd. – expert graphic design services: logo, stationery, banner & standee, packaging & label, menu, invitation card, tag, and brochure design.",
 };
 
 export default function RootLayout({

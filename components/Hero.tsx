@@ -258,7 +258,7 @@ export default function Hero() {
         >
           <Image
             src="/videographer.png"
-            alt="UI/UX Specialist"
+            alt="Design Specialist"
             fill
             sizes="160px"
             style={{ objectFit: "cover" }}
@@ -328,7 +328,7 @@ export default function Hero() {
 
             <p style={{ color: "#666", fontSize: "1.1rem", lineHeight: 1.75, marginBottom: "36px", maxWidth: "520px" }}>
               Build Your Brand&apos;s Journey with Brandingo — your partner in
-              Graphic Design, Digital Marketing, Website Development &amp; more.
+              Logo, Packaging, Brochure &amp; all things graphic design.
             </p>
 
             {/* CTA buttons */}

@@ -93,7 +93,7 @@ export default function ContactClient() {
                 <p style={{ color: "#777", fontSize: "14px", lineHeight: 1.7, marginBottom: "20px" }}>Have questions about branding, design, or marketing? We&apos;re here to help.</p>
                 <div style={{ display: "inline-block", padding: "10px 28px", background: "#f58220", color: "#fff", fontWeight: 800, borderRadius: "999px", fontSize: "14px" }}>Questions?</div>
                 <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px", marginTop: "24px" }}>
-                  {["Graphic Design", "Digital Marketing", "Website Dev", "SEO", "Branding"].map(tag => (
+                  {["Logo Design", "Stationery", "Packaging", "Menu Design", "Branding"].map(tag => (
                     <span key={tag} style={{ padding: "5px 12px", background: "#fff", border: "1px solid rgba(245,130,32,0.3)", borderRadius: "999px", fontSize: "12px", color: "#555", fontWeight: 500 }}>{tag}</span>
                   ))}
                 </div>

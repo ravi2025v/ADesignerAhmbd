@@ -70,12 +70,14 @@ export default function Contact() {
                   <label style={{ display: "block", color: "#555", fontSize: "11px", fontWeight: 700, letterSpacing: "1px", textTransform: "uppercase", marginBottom: "6px" }}>Service</label>
                   <select value={form.service} onChange={e => setForm({ ...form, service: e.target.value })} style={{ ...iBase, color: form.service ? "#1a1a1a" : "#aaa" }}>
                     <option value="">Select service</option>
-                    <option value="graphic">Graphic Designing</option>
-                    <option value="digital">Digital Marketing</option>
-                    <option value="web">Website Development</option>
-                    <option value="seo">SEO</option>
-                    <option value="photo">Photo &amp; Videography</option>
-                    <option value="ads">Google Ads</option>
+                    <option value="logo">Logo Design</option>
+                    <option value="stationery">Stationery Design</option>
+                    <option value="banner">Banner &amp; Standee Design</option>
+                    <option value="packaging">Packaging &amp; Label Design</option>
+                    <option value="menu">Menu Design</option>
+                    <option value="invitation">Invitation Card Design</option>
+                    <option value="tag">Tag Design</option>
+                    <option value="brochure">Brochure Design</option>
                     <option value="other">Other</option>
                   </select>
                 </div>

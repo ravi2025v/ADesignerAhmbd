@@ -26,15 +26,14 @@ const quickLinks = [
 ];
 
 const serviceLinks = [
-  { label: "Graphic Designing", href: "/services/graphic-designing" },
-  { label: "Digital Marketing", href: "/services/digital-marketing" },
-  { label: "Website Development", href: "/services/website-development" },
-  { label: "Search Engine Optimization", href: "/services/search-engine-optimization" },
-  { label: "Hoarding & Kiosk", href: "/services/hoarding-kiosk" },
-  { label: "Exhibition Stall", href: "/services/exhibition-stall" },
-  { label: "Photo & Videography", href: "/services/photo-videography" },
-  { label: "Google Ads", href: "/services/google-ads" },
-  { label: "Magazine, Radio & Cinema Ads", href: "/services/magazine-radio-cinema-ads" },
+  { label: "Logo Design", href: "/services" },
+  { label: "Stationery Design", href: "/services" },
+  { label: "Banner & Standee Design", href: "/services" },
+  { label: "Packaging & Label Design", href: "/services" },
+  { label: "Menu Design", href: "/services" },
+  { label: "Invitation Card Design", href: "/services" },
+  { label: "Tag Design", href: "/services" },
+  { label: "Brochure Design", href: "/services" },
 ];
 
 export default function Footer() {
