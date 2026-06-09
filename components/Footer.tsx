@@ -21,6 +21,7 @@ const SocialYoutube = () => (
 const quickLinks = [
   { label: "Home", href: "/" }, { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
+  { label: "Portfolio", href: "/portfolio" },
   { label: "Pricing", href: "/pricing" },
   { label: "Blog", href: "/blog" }, { label: "Career", href: "/career" },
   { label: "Contact", href: "/contact" }, { label: "Privacy Policy", href: "/privacy" },
@@ -139,7 +140,7 @@ export default function Footer() {
                 <li style={{ display: "flex", gap: "10px" }}>
                   <MapPin size={14} style={{ color: "#f58220", flexShrink: 0, marginTop: "2px" }} />
                   <span style={{ color: "rgba(255,255,255,0.4)", fontSize: "13px", lineHeight: 1.65 }}>
-                    Office No. 1104, Wings Business Bay, Nr ITC Fortune Hotel, 150 ft. Ring Road, Rajkot
+                    607, Iconic Shyamal, Shyamal Cross Roads, 132 Feet Ring Rd, Shyamal, Ahmedabad, Gujarat 380015
                   </span>
                 </li>
                 <li>

@@ -27,7 +27,7 @@ export default function RootLayout({
           SPLAT_FORCE={4000}
           SHADING={true}
           RAINBOW_MODE={false}
-          COLOR="#075360"
+          COLOR="#004563"
         />
         {children}
       </body>

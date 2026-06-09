@@ -10,13 +10,14 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
+  { label: "Portfolio", href: "/portfolio" },
   { label: "Career", href: "/career" },
   { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/#faq" },
   { label: "Contact", href: "/contact" },
 ];
 
-const DARK_HERO_ROUTES = ["/contact", "/blog"];
+const DARK_HERO_ROUTES = ["/contact", "/blog", "/portfolio"];
 
 export default function Navbar() {
   const pathname = usePathname();

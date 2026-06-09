@@ -181,8 +181,8 @@ export default function PrivacyPolicyPage() {
             </p>
             <div style={{ fontSize: "14px", color: "#333", display: "flex", flexDirection: "column", gap: "4px" }}>
               <strong>Brandingo</strong>
-              <span>Office No. 1104, Wings Business Bay, Nr ITC Fortune Hotel,</span>
-              <span>150 ft. Ring Road, Rajkot, Gujarat, India.</span>
+              <span>607, Iconic Shyamal, Shyamal Cross Roads, 132 Feet Ring Rd, Shyamal,</span>
+              <span>Ahmedabad, Gujarat 380015, India.</span>
               <span>Email: <a href="mailto:sales@brandingo.in" style={{ color: A, fontWeight: 600, textDecoration: "none" }}>sales@brandingo.in</a></span>
               <span>Phone: <a href="tel:+919875084098" style={{ color: A, fontWeight: 600, textDecoration: "none" }}>+91 98750 84098</a></span>
             </div>

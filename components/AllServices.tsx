@@ -6,6 +6,9 @@ import { useInView } from "react-intersection-observer";
 import { ArrowRight } from "lucide-react";
 
 const services = [
+  { img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=640&q=70", title: "Website Development", href: "/services/website-development", desc: "Fast, responsive and SEO-ready websites — from business sites and landing pages to full e-commerce stores — built to turn visitors into customers." },
+  { img: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=640&q=70", title: "Search Engine Optimization", href: "/services/search-engine-optimization", desc: "Data-driven SEO that lifts your rankings, drives qualified organic traffic and keeps your brand on the first page where customers are searching." },
+  { img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&q=70", title: "Digital Marketing", href: "/services/digital-marketing", desc: "Full-funnel digital marketing across social, search, content and email — building awareness, engagement and measurable, accountable growth." },
   { img: "/Stationary Design/Logo/001.jpeg", title: "Logo Design", href: "/services/graphic-designing", desc: "A professional, well-designed logo is the crucial first step in establishing your brand — it creates the first impression of your company and expresses its values all in one." },
   { img: "/Stationary Design/Stationary Design/002.jpeg", title: "Stationery Design", href: "/services/graphic-designing", desc: "Letterheads, envelopes, folders, business cards, invoices and more — well-executed stationery boosts your corporate identity and sets the tone from the very first touch." },
   { img: "/Stationary Design/banner design/Banner2.jpeg", title: "Banner & Standee Design", href: "/services/graphic-designing", desc: "One of the most popular ways to market today. Portable stands — fixed, X-style, expandable or retractable — work in any size for any placement and visibility." },
@@ -34,7 +37,7 @@ export default function AllServices() {
             Our <span style={{ color: "#f58220" }}>Services</span>
           </h2>
           <p style={{ color: "#777", maxWidth: "560px", margin: "0 auto", lineHeight: 1.75 }}>
-            Comprehensive design solutions tailored to bring your brand to life — pick what your business needs.
+            Comprehensive branding, web and marketing solutions tailored to bring your brand to life — pick what your business needs.
           </p>
         </div>
 

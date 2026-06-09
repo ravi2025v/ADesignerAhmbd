@@ -68,7 +68,7 @@ export default function Services() {
         {/* sdfsf */}
         {/* Grid */}
         <div style={{ display: "grid", gap: "20px" }} className="sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, i) => (
+          {services.slice(0, 6).map((service, i) => (
             <Link
               key={service.title}
               href={service.href}
