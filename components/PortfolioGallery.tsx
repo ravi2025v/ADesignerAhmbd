@@ -62,12 +62,22 @@ function BrandStory() {
 }
 
 /* ── Gallery ──────────────────────────────────────────────────── */
+const PAGE_SIZE = 24; // images rendered per batch — keeps the masonry grid fast
+
 export default function PortfolioGallery() {
   const [active, setActive] = useState("All");
   const [lightbox, setLightbox] = useState<string | null>(null);
   const [showTop, setShowTop] = useState(false);
+  const [visible, setVisible] = useState(PAGE_SIZE);
   const { ref, inView } = useInView({ threshold: 0.02, triggerOnce: true });
   const filtered = active === "All" ? portfolioItems : portfolioItems.filter(p => p.category === active);
+  const shown = filtered.slice(0, visible);
+
+  // Reset the visible window whenever the category filter changes.
+  const selectCategory = (cat: string) => {
+    setActive(cat);
+    setVisible(PAGE_SIZE);
+  };
 
   // Show the scroll-to-top button once the user has scrolled down a bit.
   useEffect(() => {
@@ -101,7 +111,7 @@ export default function PortfolioGallery() {
             {portfolioCategories.map(cat => (
               <button
                 key={cat}
-                onClick={() => setActive(cat)}
+                onClick={() => selectCategory(cat)}
                 style={{
                   padding: "9px 20px",
                   fontSize: "13px",
@@ -128,7 +138,7 @@ export default function PortfolioGallery() {
             }}
             className="columns-1 sm:columns-2 lg:columns-3"
           >
-            {filtered.map((item, i) => (
+            {shown.map((item, i) => (
               <button
                 key={item.id}
                 onClick={() => setLightbox(item.image)}
@@ -168,6 +178,18 @@ export default function PortfolioGallery() {
               </button>
             ))}
           </div>
+
+          {/* Load more */}
+          {visible < filtered.length && (
+            <div style={{ textAlign: "center", marginTop: "40px" }}>
+              <button
+                onClick={() => setVisible(v => v + PAGE_SIZE)}
+                style={{ padding: "13px 32px", background: "#fff", color: NAVY, fontWeight: 700, fontSize: "14px", border: `1.5px solid ${NAVY}`, borderRadius: "999px", cursor: "pointer", transition: "all 0.2s" }}
+              >
+                Load More ({filtered.length - visible} more)
+              </button>
+            </div>
+          )}
 
           {/* Bottom CTA */}
           <div style={{ textAlign: "center", marginTop: "64px" }}>
