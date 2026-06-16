@@ -119,10 +119,12 @@ a {
     opacity: 0;
     transform: perspective(1000px) rotateY(-85deg);
   }
+
   55% {
     opacity: 1;
     transform: perspective(1000px) rotateY(12deg);
   }
+
   100% {
     opacity: 1;
     transform: perspective(1000px) rotateY(0deg);
@@ -196,6 +198,7 @@ a {
   .pricing-table-wrap {
     display: none;
   }
+
   .pricing-cards {
     display: flex;
     flex-direction: column;
@@ -319,10 +322,27 @@ a {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
+}
+
+/* Image Protection */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  /* Allow pointer events so lightbox clicks still work */
+  pointer-events: auto;
 }

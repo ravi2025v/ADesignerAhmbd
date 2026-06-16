@@ -168,7 +168,7 @@ export default function PortfolioGallery() {
                   className="group-hover:scale-105"
                 />
                 {/* Hover overlay */}
-                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(11,60,93,0.85) 0%, rgba(11,60,93,0.1) 50%, transparent 100%)", opacity: 0, transition: "opacity 0.3s ease" }} className="group-hover:opacity-100" />
+                <div style={{ position: "absolute", inset: 0, background: "rgba(0,69,99,0.85)", opacity: 0, transition: "opacity 0.3s ease" }} className="group-hover:opacity-100" />
                 <div style={{ position: "absolute", top: "14px", right: "14px", width: "38px", height: "38px", borderRadius: "50%", background: A, display: "flex", alignItems: "center", justifyContent: "center", opacity: 0, transform: "scale(0.6)", transition: "opacity 0.25s ease, transform 0.25s ease" }} className="group-hover:opacity-100 group-hover:scale-100">
                   <ZoomIn size={17} style={{ color: "#fff" }} />
                 </div>

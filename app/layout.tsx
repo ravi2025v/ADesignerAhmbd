@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Geist } from "next/font/google";
 import SplashCursor from "@/components/SplashCursor";
+import ImageProtection from "@/components/ImageProtection";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Script from "next/script";
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <body suppressHydrationWarning>
+        <ImageProtection />
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
