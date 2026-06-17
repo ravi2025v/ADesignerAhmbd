@@ -34,20 +34,19 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="testimonials" ref={ref} onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} style={{ padding: "100px 0", background: "#f9fafb", position: "relative", overflow: "hidden" }}>
-      <div style={{ position: "absolute", top: "10%", right: "-60px", width: "300px", height: "300px", borderRadius: "50%", background: "radial-gradient(circle, rgba(11,60,93,0.06) 0%, transparent 70%)", pointerEvents: "none" }} />
-
-      <div className="site-wrap">
+    <section id="testimonials" ref={ref} onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} style={{ padding: "100px 0", background: "linear-gradient(rgba(11,60,93,0.92), rgba(0,69,99,0.95)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2000&q=80')", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment: "fixed", position: "relative", overflow: "hidden" }}>
+      
+      <div className="site-wrap" style={{ position: "relative", zIndex: 10 }}>
         <div style={{ textAlign: "center", marginBottom: "60px", opacity: inView ? 1 : 0, transform: inView ? "translateY(0)" : "translateY(24px)", transition: "opacity 0.6s ease, transform 0.6s ease" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", marginBottom: "14px" }}>
             <div style={{ width: "32px", height: "2px", background: "#f58220" }} />
             <span style={{ color: "#f58220", fontSize: "12px", fontWeight: 700, letterSpacing: "3px", textTransform: "uppercase" }}>Client Reviews</span>
             <div style={{ width: "32px", height: "2px", background: "#f58220" }} />
           </div>
-          <h2 style={{ fontSize: "clamp(1.8rem,3.5vw,2.8rem)", fontWeight: 800, color: "#1a1a1a", marginBottom: "14px" }}>
+          <h2 style={{ fontSize: "clamp(1.8rem,3.5vw,2.8rem)", fontWeight: 800, color: "#fff", marginBottom: "14px" }}>
             What Our <span style={{ color: "#f58220" }}>Clients Say</span>
           </h2>
-          <p style={{ color: "#777", maxWidth: "480px", margin: "0 auto", lineHeight: 1.75 }}>
+          <p style={{ color: "rgba(255,255,255,0.8)", maxWidth: "480px", margin: "0 auto", lineHeight: 1.75 }}>
             Hear from businesses we&apos;ve helped transform through powerful branding.
           </p>
         </div>
