@@ -18,6 +18,13 @@ const SocialYoutube = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" /><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white" /></svg>
 );
 
+const socialLinks = [
+  { Icon: SocialFacebook, href: "https://www.facebook.com/brandingo.logomaker" },
+  { Icon: SocialLinkedin, href: "https://www.linkedin.com/company/brandingoindia/" },
+  { Icon: SocialInstagram, href: "https://www.instagram.com/logoworld.brandingo" },
+  { Icon: SocialYoutube, href: "#" }
+];
+
 const quickLinks = [
   { label: "Home", href: "/" }, { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
@@ -60,8 +67,8 @@ export default function Footer() {
                 Brandingo - 10+ years of expertise in branding, designing, and marketing. Making every customer feel WoW.
               </p>
               <div style={{ display: "flex", gap: "10px" }}>
-                {[SocialFacebook, SocialLinkedin, SocialInstagram, SocialYoutube].map((Icon, i) => (
-                  <a key={i} href="#" style={{ width: "34px", height: "34px", borderRadius: "50%", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", color: "rgba(255,255,255,0.4)", transition: "all 0.2s" }} className="hover:border-[#f58220]/60 hover:text-[#f58220]">
+                {socialLinks.map(({ Icon, href }, i) => (
+                  <a key={i} href={href} target="_blank" rel="noopener noreferrer" style={{ width: "34px", height: "34px", borderRadius: "50%", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", color: "rgba(255,255,255,0.4)", transition: "all 0.2s" }} className="hover:border-[#f58220]/60 hover:text-[#f58220]">
                     <Icon />
                   </a>
                 ))}
