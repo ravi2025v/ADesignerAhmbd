@@ -1,24 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { brandLogos } from "./brandLogosData";
 
-const logos = [
-  { src: "/logos/idfc.svg", alt: "IDFC FIRST Bank", style: { transform: "scale(0.85)" } },
-  { src: "/logos/welspun.svg", alt: "Welspun", style: { transform: "scale(1.15)" } },
-  { src: "/logos/adani.svg", alt: "Adani", style: { transform: "scale(1.1)" } },
-  { src: "/logos/fleet.svg", alt: "Fleet Management", style: { transform: "scale(1.1)" } },
-  { src: "/logos/sagility.webp", alt: "Sagility", style: { transform: "scale(1.5)" } },
-  { src: "/logos/uplers.svg", alt: "Uplers", style: { transform: "scale(1.1)" } },
-  { src: "/logos/volkswagen.svg", alt: "Volkswagen", style: { transform: "scale(1.3)" } },
-  { src: "/logos/hyfun.svg", alt: "Hyfun", style: { transform: "scale(1.2)" } },
-  { src: "/logos/corona.svg", alt: "Corona", style: { transform: "scale(1.2)" } },
-  { src: "/logos/rasna.svg", alt: "Rasna", style: { transform: "scale(1.2)" } },
-  { src: "/logos/two-brothers.svg", alt: "Two Brothers", style: { transform: "scale(1.3)" } },
-  { src: "/logos/mygate.svg", alt: "Mygate", style: { transform: "scale(1.2)" } },
-  { src: "/logos/sahaj.svg", alt: "Sahaj", style: { transform: "scale(1.2)" } },
-];
-
-const track = [...logos, ...logos, ...logos];
+const track = [...brandLogos, ...brandLogos, ...brandLogos];
 
 export default function ClientLogos() {
   return (
@@ -55,7 +40,7 @@ export default function ClientLogos() {
           animate={{ x: ["0%", "-33.333%"] }}
           transition={{
             ease: "linear",
-            duration: 35,
+            duration: 85,
             repeat: Infinity,
           }}
         >
@@ -75,10 +60,10 @@ export default function ClientLogos() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={logo.src}
+                src={encodeURI(logo.src)}
                 alt={logo.alt}
                 style={{
-                  maxHeight: "42px",
+                  maxHeight: "45px",
                   maxWidth: "130px",
                   objectFit: "contain",
                   transition: "all 0.3s ease",
