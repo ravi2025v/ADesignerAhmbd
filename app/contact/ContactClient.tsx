@@ -151,7 +151,7 @@ export default function ContactClient() {
       <section style={{ background: "#f8f9fb" }}>
         <div className="site-wrap">
           <div style={{ overflow: "hidden", border: "1px solid rgba(0,0,0,0.06)" }}>
-            <iframe title="Brandingo Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9363065666795!2d72.52733947596075!3d23.025345716164294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84af5d79679f%3A0x633d74c058784d09!2sIconic%20Shyamal!5e0!3m2!1sen!2sin!4v1719310000000!5m2!1sen!2sin" width="100%" height="420" style={{ border: 0, display: "block" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+            <iframe title="Brandingo Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.0465223067807!2d72.5284149!3d23.0149495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d19d6627024bd35%3A0x1ae76a3e511005b9!2sBRANDINGO!5e0!3m2!1sen!2sin!4v1719310000000!5m2!1sen!2sin" width="100%" height="420" style={{ border: 0, display: "block" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
           </div>
         </div>
       </section>
