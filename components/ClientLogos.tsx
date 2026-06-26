@@ -49,8 +49,8 @@ export default function ClientLogos() {
               key={i}
               style={{
                 flexShrink: 0,
-                height: "50px",
-                width: "150px",
+                height: "65px",
+                width: "170px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -63,8 +63,8 @@ export default function ClientLogos() {
                 src={encodeURI(logo.src)}
                 alt={logo.alt}
                 style={{
-                  maxHeight: "45px",
-                  maxWidth: "130px",
+                  maxHeight: "60px",
+                  maxWidth: "150px",
                   objectFit: "contain",
                   transition: "all 0.3s ease",
                   ...logo.style,

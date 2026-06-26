@@ -105,7 +105,7 @@ export default function Hero() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65))",
+          background: "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
           zIndex: 1,
           pointerEvents: "none",
         }}
