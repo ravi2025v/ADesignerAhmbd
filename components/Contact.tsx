@@ -98,7 +98,7 @@ export default function Contact() {
               <button suppressHydrationWarning type="submit" disabled={sending} style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "8px", padding: "15px", borderRadius: "0", border: "none", background: sent ? "#22c55e" : "#f58220", color: "#fff", fontWeight: 700, fontSize: "15px", cursor: sending ? "wait" : "pointer", opacity: sending ? 0.7 : 1, transition: "background 0.2s" }}>
                 {sent ? "Message Sent!" : sending ? "Sending..." : <><span>Send Message</span><Send size={16} /></>}
               </button>
-              {error && <p style={{ color: "#dc2626", fontSize: "13px", textAlign: "center" }}>{error}</p>}
+              {error && <p style={{ color: "#dc2626", fontSize: "14px", textAlign: "center" }}>{error}</p>}
             </form>
           </div>
         </div>
